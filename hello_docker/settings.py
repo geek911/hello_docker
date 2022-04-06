@@ -25,8 +25,9 @@ SECRET_KEY = 'e0uh0r&4@ix7ty$)(^p!4nqsrao^-f^yupd!cr$fkc2l4gf_ye'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["0.0.0.0", ]
 
+APP_NAME='hello_docker'
 
 # Application definition
 
